@@ -11,7 +11,7 @@ import {
   useSelector as selectorHook
 } from 'react-redux';
 
-const rootReducer = combineReducers({
+export const rootReducer = combineReducers({
   ingredients: IngredientsSlice, // Adjust import based on your folder structure
   burgerConstructor: ingredientsList,
   feed: feedSlice,
