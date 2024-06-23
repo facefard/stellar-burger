@@ -1,4 +1,4 @@
-import store, { rootReducer } from '../src/services/store';
+import store, { rootReducer } from '../../store';
 
 describe('Тестирование rootReducer', () => {
   test('Обработка неизвестного экшена должна вернуть предыдущее состояние хранилища', () => {

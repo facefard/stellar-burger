@@ -4,9 +4,9 @@ import {
   createOrder,
   resetOrderModalData,
   initialState
-} from '../src/services/slices/orderSlice';
+} from '../orderSlice';
 
-import reducer from '../src/services/slices/orderSlice';
+import reducer from '../orderSlice';
 
 const ordersMockData = [
   {

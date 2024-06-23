@@ -5,9 +5,9 @@ import {
   login,
   logout,
   initialState,
-} from '../src/services/slices/authSlice';
+} from '../authSlice';
 
-import reducer from '../src/services/slices/authSlice';
+import reducer from '../authSlice';
 
 const userMockData = {
   email: 'example@example.mail',

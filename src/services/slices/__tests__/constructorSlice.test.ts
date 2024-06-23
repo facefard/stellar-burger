@@ -5,9 +5,9 @@ import {
   moveIngredient,
   resetConstructor,
   initialState,
-} from '../src/services/slices/constructorSlice';
+} from '../constructorSlice';
 
-import reducer from '../src/services/slices/constructorSlice';
+import reducer from '../constructorSlice';
 
 const bunMockData = {
   _id: '643d69a5c3f7b9001cfa093c',

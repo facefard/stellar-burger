@@ -1,5 +1,5 @@
-import { fetchIngredients, initialState } from '../src/services/slices/IngredientsSlice';
-import reducer from '../src/services/slices/IngredientsSlice';
+import { fetchIngredients, initialState } from '../IngredientsSlice';
+import reducer from '../IngredientsSlice';
 
 const ingredientsMockData = [
   {

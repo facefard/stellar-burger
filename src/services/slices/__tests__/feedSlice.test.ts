@@ -1,5 +1,5 @@
-import { fetchFeeds, initialState } from '../src/services/slices/feedSlice';
-import reducer from '../src/services/slices/feedSlice';
+import { fetchFeeds, initialState } from '../feedSlice';
+import reducer from '../feedSlice';
 
 const feedsMockData = {
   orders: [],
