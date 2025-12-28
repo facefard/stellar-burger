@@ -1,19 +1,48 @@
-# Проектная работа 11-го спринта
+# 🍔 Stellar Burger
 
-[Макет](<https://www.figma.com/file/vIywAvqfkOIRWGOkfOnReY/React-Fullstack_-Проектные-задачи-(3-месяца)_external_link?type=design&node-id=0-1&mode=design>)
+**Stellar Burger** is a single-page application built with React and Redux that simulates an online burger constructor.  
+Users can assemble burgers from ingredients, place orders, and manage authentication.
 
-[Чеклист](https://www.notion.so/praktikum/0527c10b723d4873aa75686bad54b32e?pvs=4)
+The project was developed as part of a learning sprint focused on React, Redux, and routing.
 
-## Этапы работы:
+---
 
-1. Разверните проект и ознакомьтесь с кодом. Все необходимые вам компоненты уже созданы и лежат в папке `src/components`
+## 🚀 Features
 
-2. Настройте роутинг.
+- Ingredient list loaded from API
+- Burger constructor with drag & drop
+- Order creation
+- User authentication (login, register, protected routes)
+- Profile and order history
+- Client-side routing
 
-3. Напишите функционал запросов данных с сервера, используя `Redux` и глобальный `store`. Сами "ручки" уже прописаны и лежат в `utils/burger-api.ts`
+---
 
-4. Настройте авторизацию и создайте защищённые роуты.
+## 🛠 Tech Stack
 
-## Важно:
+- React
+- TypeScript
+- Redux Toolkit
+- React Router
+- Webpack
+- HTML / CSS
 
-Для корректной работы запросов к серверу необходимо добавить переменную BURGER_API_URL в окружение. Сама ссылка находится в файле `.env.example`.
+---
+
+## 🌐 Live Demo
+
+👉 https://facefard.github.io/stellar-burger/#/
+
+> ⚠️ **Note:**  
+> The application uses the official Yandex Practicum API.  
+> In some regions, the API may be unavailable due to network restrictions.  
+> Using a VPN resolves this issue.
+
+---
+
+## 📦 Installation & Run Locally
+
+```bash
+npm install
+npm run start
+
