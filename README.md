@@ -35,14 +35,5 @@ The project was developed as part of a learning sprint focused on React, Redux, 
 
 > ⚠️ **Note:**  
 > The application uses the official Yandex Practicum API.  
-> In some regions, the API may be unavailable due to network restrictions.  
-> Using a VPN resolves this issue.
-
----
-
-## 📦 Installation & Run Locally
-
-```bash
-npm install
-npm run start
+> The backend API provided by Yandex Practicum is no longer available, so the application may not function fully.
 
