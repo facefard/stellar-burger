@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "data": [
+    {
+      "_id": "643d69a5c3f7b9001cfa093c",
+      "name": "Краторная булка N-200i",
+      "type": "bun",
+      "proteins": 2134,
+      "fat": 2134,
+      "carbohydrates": 1234,
+      "calories": 3241,
+      "price": 2143,
+      "image": "https://code.s3.yandex.net/react/code/bun-02.png",
+      "image_mobile": "https://code.s3.yandex.net/react/code/bun-02-mobile.png",
+      "image_large": "https://code.s3.yandex.net/react/code/bun-02-large.png"
+    },
+    {
+      "_id": "643d69a5c3f7b9001cfa093e",
+      "name": "Филе Люминесцентного тетраодонтимформа",
+      "type": "main",
+      "proteins": 1234,
+      "fat": 4321,
+      "carbohydrates": 3142,
+      "calories": 1324,
+      "price": 4312,
+      "image": "https://code.s3.yandex.net/react/code/meat-03.png",
+      "image_mobile": "https://code.s3.yandex.net/react/code/meat-03-mobile.png",
+      "image_large": "https://code.s3.yandex.net/react/code/meat-03-large.png"
+    },
+    {
+      "_id": "643d69a5c3f7b9001cfa0942",
+      "name": "Соус Spicy-X",
+      "type": "sauce",
+      "proteins": 2314,
+      "fat": 4213,
+      "carbohydrates": 4132,
+      "calories": 4123,
+      "price": 1423,
+      "image": "https://code.s3.yandex.net/react/code/sauce-02.png",
+      "image_mobile": "https://code.s3.yandex.net/react/code/sauce-02-mobile.png",
+      "image_large": "https://code.s3.yandex.net/react/code/sauce-02-large.png"
+    }
+  ]
+}
